@@ -1,0 +1,41 @@
+{
+  "name": "node-react-koa",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.23.4",
+    "axios": "^0.19.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-scripts": "3.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "koa": "^2.8.2",
+    "koa-body": "^4.1.1",
+    "koa-cors": "0.0.16",
+    "koa-router": "^7.4.0",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.19.1"
+  }
+}
